@@ -2,12 +2,18 @@
 
 ## Dataset - [Fashion MNIST](https://www.kaggle.com/qnkhuat/fashionmnist)
 
+- Download dataset and put into **research/images/** folder.
+
 ## Create bin/ folder and put packages into bin/ folder:
 
 - Download Python environment - **[Python37](https://hlaiman.com/bin/dmitriy/Python37.rar)** archive, unzip and put into **bin/** folder.
 
 
 ## Executable scripts (.bat)
+
+### train_and_compare.bat
+
+- Script for training and comaring Keras and P-Net models. It is a sequence of train_keras.bat, generate_csv.bat, train_pnet.bat and compare.bat scripts execution.
 
 ### 1. train_keras.bat
 
@@ -25,9 +31,6 @@
 
 - Script for comparing Keras and P-Net models.
 
-### train_and_compare.bat
-
-- Script for training and comaring Keras and P-Net models. It is a sequence of train_keras.bat, generate_csv.bat, train_pnet.bat and compare.bat scripts execution.
 
 
 
