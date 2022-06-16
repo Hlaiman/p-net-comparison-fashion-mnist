@@ -2,7 +2,7 @@ import os
 import sys
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
-
+os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 sys.path.append(os.getcwd() + '/..')
 sys.dont_write_bytecode = True
 
